@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a76f6"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Unaiza!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+ />
+
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#dfa19e"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Click to change text color"
+
+        android:layout_alignParentBottom="true"
+
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_above="@+id/button"
+        android:id="@+id/ChangeBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Click to change background color"
+        android:background="#fbc0a6"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+    </RelativeLayout>
