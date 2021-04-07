@@ -27,5 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.parent).setBackgroundColor(getResources().getColor(R.color.Purple));
             }
         });
+
+
     }
 }
